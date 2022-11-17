@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecnoMundo</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/> 
+</head>
+<body class="somos">
+    <header>
+        <nav class="navquienes">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <a href="#" class="enlace" >
+                <img src="/imagenes/logo.png" alt="" class="log">
+            </a>
+            <ul>
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Tienda online</a></li>
+                <li><a href="index.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                
+            </ul>
+        </nav>    
+    </header>
+
+    <main class="mainsomos">
+        <div class="contenedorquienesomos">
+            
+        <h2 class="quienessomos">¿Quienes somos?</h2>
+        <p class="texto">Somos una empresa dedica a la tecnologia y sus avances . Tenemos nuevos avances nuestras compras estan super protegidas.</p>
+
+        </div>
+    </main>
+
+    <footer>
+    
+    </footer>
+</body>
+</html>
